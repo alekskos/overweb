@@ -5,6 +5,8 @@ import {GlobalStyles} from '../globalStyles'
 // styles
 const Main = styled.main`
   display: grid;
+  margin: auto;
+  max-width: 42rem;
 `;
 
 const Header = styled.h1`
