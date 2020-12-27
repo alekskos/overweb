@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "gatsby";
 import styled from 'styled-components';
 import { GlobalStyles } from '../globalStyles';
 
@@ -18,7 +19,7 @@ export default function About() {
       <GlobalStyles />
       <Main>
         <Header>About</Header>
-        <a href="/">Back</a>
+        <Link to='/'>Back</Link>
       </Main>
     </>
   );

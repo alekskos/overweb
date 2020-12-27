@@ -1,4 +1,5 @@
 import * as React from "react";
+import { Link } from "gatsby";
 import styled from 'styled-components';
 import { GlobalStyles } from '../globalStyles';
 
@@ -24,7 +25,7 @@ const IndexPage = () => {
           Architecto blanditiis cupiditate dolorem eveniet iste laboriosam minima
           minus officiis optio perferendis quam quis quo rem repellendus, sequi totam vel velit voluptatum.
         </p>
-        <a href="/about">About</a>
+        <Link to="/about">About</Link>
       </Main>
     </>
   )
