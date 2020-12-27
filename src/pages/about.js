@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { GlobalStyles } from '../globalStyles';
 
 const Main = styled.main`
   display: grid;
@@ -12,9 +13,13 @@ const Header = styled.h1`
 `;
 
 export default function About() {
-    return (
-        <Main>
-            <Header>About</Header>
-        </Main>
-    );
+  return (
+    <>
+      <GlobalStyles />
+      <Main>
+        <Header>About</Header>
+        <a href="/">Back</a>
+      </Main>
+    </>
+  );
 }
