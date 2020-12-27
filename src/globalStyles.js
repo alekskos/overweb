@@ -6,6 +6,6 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   h1 {
-    font: 500 2rem 'Playfair Display', serif;
+    font: 500 2.5rem 'Playfair Display', serif;
   }
 `;

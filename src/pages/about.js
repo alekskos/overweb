@@ -1,10 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const H1 = styled.h1`
+const Main = styled.main`
+  display: grid;
+  margin: auto;
+  max-width: 42rem;
+`;
+
+const Header = styled.h1`
     color: green;
 `;
 
 export default function About() {
-    return (<H1>About</H1>)
+    return (
+        <Main>
+            <Header>About</Header>
+        </Main>
+    );
 }
