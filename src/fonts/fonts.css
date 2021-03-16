@@ -1,12 +1,12 @@
 @font-face {
-    font-family: "Playfair Display";
+    font-family: "Playfair";
     src: url("./PlayfairDisplay.woff"),
     url("./PlayfairDisplay.woff2");
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Montserrat Light";
+    font-family: "Montserrat";
     src: url("./Montserrat-Light.woff"),
     url("./Montserrat-Light.woff2");
     font-display: swap;
